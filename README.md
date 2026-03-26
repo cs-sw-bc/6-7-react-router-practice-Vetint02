@@ -87,13 +87,13 @@ src/
 
 ## Completion Checklist
 
-- [ ] `BrowserRouter` set up in `main.jsx`
-- [ ] Navbar visible on all pages using `<NavLink>`
-- [ ] Home page fetches and displays all countries
-- [ ] Clicking a country card navigates to the detail page
-- [ ] `useParams` used in `CountryDetail` to read the country name from the URL
-- [ ] Back button on detail page uses `useNavigate(-1)`
-- [ ] `/build` uses nested routes with `<Outlet />`
-- [ ] `Web` and `Mobile` are separate components with their own content
-- [ ] Active `<NavLink>` is visually distinct from inactive links
-- [ ] Loading state shown while data is fetching
+- [ * ] `BrowserRouter` set up in `main.jsx`
+- [ * ] Navbar visible on all pages using `<NavLink>`
+- [ * ] Home page fetches and displays all countries
+- [ * ] Clicking a country card navigates to the detail page
+- [ * ] `useParams` used in `CountryDetail` to read the country name from the URL
+- [ * ] Back button on detail page uses `useNavigate(-1)`
+- [ * ] `/build` uses nested routes with `<Outlet />`
+- [ * ] `Web` and `Mobile` are separate components with their own content
+- [ * ] Active `<NavLink>` is visually distinct from inactive links
+- [ * ]  Loading state shown while data is fetching
