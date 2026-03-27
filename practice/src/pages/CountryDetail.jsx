@@ -8,11 +8,10 @@ import '../app.css'
 export default function CountryDetails() {
     const { name } = useParams();
     const [country, setCountry] = useState(null);
-    const [isLoading, setLoading] = useState(false);
+    const [isLoading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        setLoading(true);
         console.log(name)
         fetch(`https://restcountries.com/v3.1/name/${name}`)
             .then(response => {
@@ -43,7 +42,8 @@ export default function CountryDetails() {
         return <div>Error:{error}</div>
     }
 
-    if (!country) return null;
+    // if (!country) return null;
+    // WOAH THANKS SOMA
 
     return (
         <div>
